@@ -1,0 +1,62 @@
+
+}
+#page2{
+  width: 95%;
+  margin-top: 0;
+  background-color:;
+  align-self: center;
+}
+#frågorH{
+    background-color:#DAA520;
+    border: 5px solid gray;
+    padding: 1em;
+}
+#svaretH{
+    background-color:#000080;
+    border: 5px solid #DAA520;
+    padding: 1px;
+    margin-top: 10px;
+    font-family:monospace;
+    font-size: 14px;
+    color:#DAA520;
+}
+#frågorS{
+    background-color:#DAA520;
+    border: 5px solid gray;
+    padding: 1em;
+    margin-top: 10px;
+}
+#svaretS{
+    background-color:#000080;
+    border: 5px solid #DAA520;
+    padding: 1px;
+    margin-top: 10px;
+    font-family:monospace;
+    font-size: 14px;
+    color:#DAA520;
+}
+#frågorF{
+    background-color:#DAA520;
+    border: 5px solid gray;
+    padding: 1em;
+    margin-top: 10px;
+}
+#sveretF{
+    border: 5px solid #DAA520;
+    background-color:#000080;
+    border: 5px solid #DAA520;
+    padding: 1px;
+    margin-top: 10px;
+    font-family:monospace;
+    font-size: 14px;
+    color:#DAA520;
+}
+#källan{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#DAA520;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+    font-family: serif;
+}
