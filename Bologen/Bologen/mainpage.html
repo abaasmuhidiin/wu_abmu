@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<!-----------------------Head----------------------->
+<head>
+    <meta charset="utf-8">
+    <title>computer struggle</title>
+    <link rel="icon" href="bilder/history.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/provastyle.css">
+</head>
+
+<!-----------------------Header---------------------->
+<header>
+    <nav>
+         <a class="active" href="#">Hem</a>
+         <a href="./Blogen/index.html">Blog</a>
+         <a href="artiklar.html">Artiklar</a>
+         <a href="./Blogen/pictures.html">Bildar</a>
+         <a href="./Blogen/index.html">Om oss</a>
+         <a href="./Blogen/index.html">Kontakta oss</a>
+   </nav>
+ </header>
+<!-----------------------Body------------------------>
+
+<body onload="startTime()">
+ <div id="clock" ></div>
+     <script>
+     function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('clock').innerHTML=
+          h + ":" + m + ":" + s ;
+          var t = setTimeout(startTime, 500);
+     }
+     function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+    }
+     </script>
+
+    <video autoplay muted loop id="myVideo">
+    <source src="bilder/earth.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+
+<!-----------------------Navigation------------------>
+
+
+<!----------------------Uppgifsrubrik--------------------->
+
+</body>
+<!--------------------------Footers----------------------->
+ <footer>
+
+ </footer>
+
+
+</html>
